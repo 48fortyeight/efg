@@ -1,0 +1,80 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path" : "pages/home/home",
+			"style" : 
+			{
+				"navigationBarTitleText" : "e福工"
+			}
+		},
+		{
+			"path" : "pages/post/post",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		},
+		{
+			"path" : "pages/cate/cate",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		},
+		{
+			"path" : "pages/my/my",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		}
+	],
+	"subPackages": [
+	    {
+	      "root": "subpkg",
+	      "pages": [{
+	      	"path" : "comment_page/comment_page",
+	      	"style" : 
+	      	{
+	      		"navigationBarTitleText" : ""
+	      	}
+	      }]
+	    }
+	  ],
+	  "tabBar": {
+	    "selectedColor": "#C00000",
+	    "list": [
+	      {
+	        "pagePath": "pages/home/home",
+	        "text": "首页",
+	        "iconPath": "static/tab_icons/home.png",
+	        "selectedIconPath": "static/tab_icons/home-active.png"
+	      },
+	      {
+	        "pagePath": "pages/cate/cate",
+	        "text": "分类",
+	        "iconPath": "static/tab_icons/cate.png",
+	        "selectedIconPath": "static/tab_icons/cate-active.png"
+	      },
+	      {
+	        "pagePath": "pages/post/post",
+	        "text": "购物车",
+	        "iconPath": "static/tab_icons/post.png",
+	        "selectedIconPath": "static/tab_icons/post-active.png"
+	      },
+	      {
+	        "pagePath": "pages/my/my",
+	        "text": "我的",
+	        "iconPath": "static/tab_icons/my.png",
+	        "selectedIconPath": "static/tab_icons/my-active.png"
+	      }
+	    ]
+	},
+	"globalStyle": {
+	    "navigationBarTextStyle": "white",
+	    "navigationBarTitleText": "e福工",
+	    "navigationBarBackgroundColor": "#C00000",
+	    "backgroundColor": "#FFFFFF"
+	  },
+	"uniIdRouter": {}
+}
